@@ -29,6 +29,9 @@
     font-size: 1.2vw;
     font-family: 'Nova Square', cursive;
 }
+#home h2:hover{
+    text-shadow:0 0 1vw white;
+} 
 
 #home h3{
     font-size: 1.1vw;
@@ -77,6 +80,10 @@
     top: 56%;
 }
 
+
+
+
+
 #work{
     position: relative;
     display: flex;
@@ -85,7 +92,6 @@
     height: 27vw;
     color: white;
     overflow: hidden;
-    
 }
 #work-head{
     padding: 5vw;
@@ -95,6 +101,10 @@
     font-size: 1.7vw;
     font-family: 'Nova Square', cursive;
 }
+#work h2:hover,#education-head h2:hover,#skill h2:hover,
+#about-head h1:hover,#contactheader:hover{
+    text-shadow:0 0 0.6vw rgba(255, 255, 255, 0.673);
+} 
 #work h3,#education-head h3,#skill h3{
     font-size: 1.3vw;
     padding-top: 0.4vw;
@@ -130,6 +140,11 @@
     top: 70%;
     color: #e5ff00;
 }
+
+
+
+
+
 #project{
     position: relative;
     background-color: rgb(0, 0, 0);
@@ -156,9 +171,12 @@
 .span123{
     color:black;font-size: 1.5vw;
 }
-#project1 img,#project2 img,#project3 img{
+#project1 img,#lost1,#project3 img{
     width: 45%;
     padding: 2%;
+}
+#lost2{
+    display: none;
 }
 #project1 h1,#project2 h1,#project3 h1{
     font-family: 'Nova Square', cursive;
@@ -206,6 +224,11 @@
 #project1 a:hover{
     background-color:rgb(255, 255, 255);
 }
+
+
+
+
+
 #education-head{
     position: relative;
     display: flex;
@@ -214,6 +237,9 @@
     color: white;
     padding: 2% 10%;
     height:20vw;
+}
+#eduhead{
+    padding-top:10%;padding-right:3%;
 }
 #education-head img{
     position: absolute;
@@ -244,6 +270,10 @@
     height:45vw;
     overflow: hidden;
 }
+
+
+
+
 #skill{
     position: relative;
     background-color: rgb(0, 0, 0);
@@ -254,25 +284,43 @@
     padding-top: 3%;
     padding-left: 34%;
 }
+.bodysection{
+    display: flex;
+}
 #skill-body1,#skill-body2{
     display: flex;
     padding:2%;
     padding-bottom:1.5%;
 }
 .skill2022 {
-    width: 11vw;
+    width: 12vw;
     background-color: rgb(107, 107, 107);
     text-align: center;
-    margin-left: 4.15vw;
+    margin-left: 3.25vw;
     height: 7vw;
     font-size: 1.6vw;
     font-family: sans-serif;
     color: white;
     padding-top: 3.2vw;
 }
+.skill2022:hover{
+    background-color: rgb(53, 53, 53);
+    /* color: black; */
+    font-size:1.8vw;
+    font-weight: 600;
+}
 .skill2022 p{
     color: gold;
+    padding-left: 1.5%;
+    padding-top: 1%;
 }
+.skill2022 p:hover{
+    text-shadow:0 0 2vw rgb(255, 200, 0);
+}
+
+
+
+
 #about{background-color: black;}
 #about-head{
     position: relative;
@@ -289,8 +337,8 @@
 }
 #about-head h1{
     font-size:1.7vw;
-    padding: 10% 20%;
 }
+#about-head div{padding: 10% 20%;}
 
 #about-head h2,#about-head h3,#about-head h6{
     font-size: 5vw;
@@ -368,6 +416,10 @@
     width: 10%;
     opacity: 0.7;
 }
+
+
+
+
 
 /* CONTACT */
 
