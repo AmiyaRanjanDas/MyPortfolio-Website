@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Edu+VIC+WA+NT+Beginner&family=Nova+Square&family=Rancho&family=Roboto&family=Tangerine&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="home">
+        <div id="home-head">
+            <h2>AMIYA RANJAN DAS</h2>
+            <h3>Hello,I am a designer<br>devloper & webdevelopment<br>enthusiasist</h3>
+        </div>
+        <h1 id="op1">DEVLOPE DESIGN WEBDEVELOPMENT HELLO WELCOME ENJOY MY WEBSITE DEVLOPE DESIGN WEBDEVELOPMENT</h1>
+        <h1 id="op2">DEVLOPE DESIGN WEBDEVELOPMENT HELLO WELCOME ENJOY MY WEBSITE DEVLOPE DESIGN WEBDEVELOPMENT</h1>
+        <h1 id="op3">DEVLOPE DESIGN WEBDEVELOPMENT HELLO WELCOME ENJOY MY WEBSITE DEVLOPE DESIGN WEBDEVELOPMENT</h1>
+        <h1 id="op4">DEVLOPE DESIGN WEBDEVELOPMENT HELLO WELCOME ENJOY MY WEBSITE DEVLOPE DESIGN WEBDEVELOPMENT</h1>
+        <img id="img2" src="images/giphy10.gif">
+        <img id="img3" src="images/giphy10.gif">
+        <img id="img1" src="images/amiya1.jpg">
+    </div>
+    <script>
+        let text1 = document.querySelector('#op1');
+        let text2 = document.querySelector('#op2');
+        let text3 = document.querySelector('#op3');
+        let text4 = document.querySelector('#op4');
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+            text1.style.left = -100 + value / 6 + '%';
+            text2.style.left = -100 + value / 6 + '%';
+            text3.style.left = -value / 6 + '%';
+            text4.style.left = - value / 6 + '%';
+        })
+    </script>
+
+    <div id="work">
+        <div id="work-head">
+            <h2>my Projects</h2>
+            <h3>I create some project<br>websites using <span style="color:white">HTML,<br>CSS, JAVASCRIPT, PHP<br>& SQL
+                </span> So let's Go..</h3>
+        </div>
+        <h1>WORK</h1>
+        <h4>WORK</h4>
+        <h5>WORK</h5>
+        <img src="images/giphy11.gif">
+    </div>
+
+    <div id="project">
+        <div id="project1">
+            <div class="project-head">
+                <h1>servebox.com</h1>
+                <h2>tools used: <span class="span123">HTML,CSS,JAVASCRIPT,PHP,SQL</span></h2>
+                <h3 style="color: rgb(59 59 59);">
+                    It is a website created with HTML ,CSS ,JavaScript ,PHP
+                    & it provide information for the customer/clint to get
+                    services like Plumber, Electrician & Mechanics in your
+                    near locality.(As I host it on github so you can access
+                    only the front end part & also there are functional Backend)</h3>
+                <a href="https://amiyaranjandas.github.io/Servebox.com-Website/" target="_blank">Let's Go</a>
+            </div>
+            <img id="pro1" src="images/servebox.png">
+        </div>
+        <div id="project2">
+            <img id="pro1" src="images/gymwebsite.png">
+            <div class="project-head">
+                <h1>gym management website</h1>
+                <h2>tools used: <span class="span123">HTML,CSS,JAVASCRIPT,PHP,SQL</span></h2>
+                <h3 style="color:yellow">
+                    It is also made from HTML ,CSS ,JavaScript ,PHP
+                    & it is a proper professional website for a Gym,
+                    the owner can manage the data through it and also
+                    have the mechanism for signup and validation Process.
+                    (Also It have the same problem as the above website)
+                </h3>
+                <a href="https://amiyaranjandas.github.io/GymManagementWebsite/" target="_blank">Let's Go</a>
+            </div>
+        </div>
+        <div id="project3">
+            <div class="project-head">
+                <h1>online voting website</h1>
+                <h2>tools used: <span class="span123">HTML,CSS,JAVASCRIPT,PHP,SQL</span></h2>
+                <h3 style="color:rgb(0 110 220)">
+                    Created from HTML ,CSS ,JavaScript ,PHP & it is
+                    a website in which the voters & candidates can
+                    signup for any kind of voting, One can handle all
+                    the no. of and validation.
+                    (Also It have the same problem as the above website)
+                </h3>
+                <a href="https://amiyaranjandas.github.io/OnlineVotingSystemWebsite/" target="_blank">Let's Go</a>
+            </div>
+            <img id="pro1" src="images/voting.png">
+        </div>
+    </div>
+
+    <div id="education">
+
+        <!-- education header -->
+
+        <div id="education-head">
+            <div>
+                <img src="images/giphy2.gif">
+                <h1>READ<br>WRITE</h1>
+                <h1 id="log12" style="z-index:4;color:transparent">READ<br>WRITE</h1>
+            </div>
+            <div style="padding-top:10%;padding-right:3%">
+                <h2 style="font-family:'Nova Square', cursive;">EDUCATION</h2>
+                <h3>My schooling,secondary,graduation are:</h3>
+            </div>
+        </div>
+
+        <!-- education section -->
+
+        <div id="education-body">
+            <img id="giph100" src="images/giphy10.gif">
+            <img id="giph200" src="images/giphy10.gif">
+            <div class="img-slider">
+                <div class="slide active">
+                    <div class="info">
+                        <h2 id="log23">EDUCATION</h2>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/ssvm.jpg" alt="">
+                    <div class="info">
+                        <h2>HSC - 10th</h2>
+                        <p>Saraswati Shishu Vidya Mandir,<br>
+                            Ghoda Bazar,PURI<br>
+                            2016 - 2017<br>Percentage - 87.5%</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/ssc-autonoums-college 2022.png" alt="">
+                    <div class="info">
+                        <h2>CHSE - 12th</h2>
+                        <p>Samanta Chandra Sekhar High School<br>
+                            College Square,PURI<br>
+                            2017 - 2019<br>Percentage - 72.5%</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/Scs_college_puri.jpeg">
+                    <div class="info">
+                        <h2>BSC ComputerScience</h2>
+                        <p>Samanta Chandra Sekhar Autonomus College<br>
+                            College Square,PURI<br>
+                            2019 - 2022<br>Percentage - 88.5%</p>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <div class="btn active">@@</div>
+                    <div class="btn">10th</div>
+                    <div class="btn">12th</div>
+                    <div class="btn">BSC</div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                var slides = document.querySelectorAll('.slide');
+                var btns = document.querySelectorAll('.btn');
+                let currentSlide = 1;
+
+                // Javascript for image slider manual navigation
+                var manualNav = function (manual) {
+                    slides.forEach((slide) => {
+                        slide.classList.remove('active');
+
+                        btns.forEach((btn) => {
+                            btn.classList.remove('active');
+                        });
+                    });
+
+                    slides[manual].classList.add('active');
+                    btns[manual].classList.add('active');
+                }
+
+                btns.forEach((btn, i) => {
+                    btn.addEventListener("click", () => {
+                        manualNav(i);
+                        currentSlide = i;
+                    });
+                });
+
+                // Javascript for image slider autoplay navigation
+                var repeat = function (activeClass) {
+                    let active = document.getElementsByClassName('active');
+                    let i = 1;
+
+                    var repeater = () => {
+                        setTimeout(function () {
+                            [...active].forEach((activeSlide) => {
+                                activeSlide.classList.remove('active');
+                            });
+
+                            slides[i].classList.add('active');
+                            btns[i].classList.add('active');
+                            i++;
+
+                            if (slides.length == i) {
+                                i = 0;
+                            }
+                            if (i >= slides.length) {
+                                return;
+                            }
+                            repeater();
+                        }, 10000);
+                    }
+                    repeater();
+                }
+                repeat();
+            </script>
+        </div>
+    </div>
+
+    <!-- Skill :- -->
+
+    <div id="skill">
+        <div id="skill-head">
+            <h2 style="font-family:'Nova Square', cursive;">SKILL</h2>
+            <h3>All these are my IT Skills :</h3>
+        </div>
+        <div id="skill-body1">
+            <div class="skill2022">C<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+            </div>
+            <div class="skill2022">C++<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+            </div>
+            <div class="skill2022">JAVA<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+            </div>
+            <div class="skill2022">DBMS<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+            </div>
+            <div class="skill2022">SQL<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+            </div>
+            <div class="skill2022">HTML<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+            </div>
+        </div>
+        <div id="skill-body2">
+            <div class="skill2022">CSS<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star"></p>
+            </div>
+            <div class="skill2022">JAVASCRIPT<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star"></p>
+            </div>
+            <div class="skill2022">PHP<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star"></p>
+            </div>
+            <div class="skill2022">R<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star"></p>
+            </div>
+            <div class="skill2022">AI<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star"></p>
+            </div>
+            <div class="skill2022">GITHUB<br>
+                <p class="fa fa-star">
+                <p class="fa fa-star">
+                <p class="fa fa-star"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About:-   -->
+
+    <section id="about">
+        <div id="about-head">
+            <h1 style="font-family:'Nova Square', cursive;">ABOUT</h1>
+            <img id="giph25" src="images/giphy10.gif">
+            <h2>WHAT</h2>
+            <h3>ABOUT</h3>
+            <h6>YOU</h6>
+        </div>
+        <div id="about-body">
+            <img id="img1001" src="images/amiya1.jpg">
+            <img id="img1002" src="images/amiya202.jpg">
+            <img id="img1003" src="images/amiya303.jpg">
+            <img id="img1004" src="images/amiya7.jpg">
+            <p>A positive & good human</p>
+            <p>Self confident and hardworking student</p>
+            <p>having leadership quality</p>
+            <p>wants to achieve my goals and make my parents proud</p>
+            <p>I am from Puri Jagganth Dham</p>
+            <p>Schooling from SSVM, my secondary education is in SCS HS School </p>
+            <p>And also graduated from SCS College</p>
+            <p>I am Good in ODIA and HINDI </p>
+            <p>& also have working proficency in Enlish</p>
+            <p>My intrest is in Programming,Designing</p>
+            <p>And Develope good professional websites</p>
+            <p>I also love playing Cricket</p>
+            <p>very much passonate about my dreams not only to be a IT field professional</p>
+            <p>but also to be a good human in life</p>
+            <p>want fullfil my parents wishes And lot to achieve</p>
+            <p>So I am Waiting</p>
+        </div>
+    </section>
+
+    <!-- Contact  :-   -->
+
+    <section id="contact">
+            <h2 id="contactheader">CONTACT</h2>
+            <img id="sticker1" src="images/STICKER1234.gif">
+            <div class="wrapper">
+                <div class="icon email">
+                    <div class="tooltip">
+                        Email
+                    </div>
+                    <a href="https://amiyaranjandas2000@gmail.com" target="_blank"><span><i class="fab fa-google"></i></span></a>
+                </div>
+                <div class="icon facebook">
+                    <div class="tooltip">
+                        Facebook
+                    </div>
+                    <a href="https://facebook.com/pro file.php?id=100017013194768" target="_blank"><span><i class="fab fa-facebook-f"></i></span></a>
+                </div>
+                <div class="icon instagram">
+                    <div class="tooltip">
+                        Instagram
+                    </div>
+                    <a href="https://instagram.com/__dream_.hacker_?igshid=YmMyMTA2M2Y" target="_blank"><span><i class="fab fa-instagram"></i></span></a>
+                </div>
+                <div class="icon github">
+                    <div class="tooltip">
+                        Github
+                    </div>
+                    <a href="https://github.com/AmiyaRanjanDas" target="_blank"><span><i class="fab fa-github"></i></span></a>
+                </div>
+                <div class="icon youtube">
+                    <div class="tooltip">
+                        linkedin
+                    </div>
+                    <a href="https://linkedin.com/in/amiyaranjan-das-19a951220 " target="_blank"><span><i class="fab fa-linkedin"></i></span></a>
+                </div>
+            </div>
+    </section>
+
+</body>
+
+</html>
