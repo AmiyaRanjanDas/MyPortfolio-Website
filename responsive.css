@@ -10,14 +10,22 @@
     overflow: hidden;
     }
     #home-head{padding:5vw;}
-    #img1 {
-        width: 56%;
+    #img1,#img0{
+        width:56%;
+        top: 31%;
+    left: 30.2%;
     height: fit-content;
-    padding-left: 30%;
-    position: relative;
-    z-index: 4;
-    padding-top: 16%;
+    position: absolute;
+    z-index: 5;
+    transition: opacity 0.5s ease-in-out;
 }
+#img0 {
+    z-index: 4;
+}
+#img1:hover{
+    opacity: 0;
+}
+
     #home h2{
         font-size: 4vw;
         font-family: 'Nova Square', cursive;
@@ -57,7 +65,7 @@
     }
     #op2,
     #op4 {
-        z-index: 5;
+        z-index: 6;
         -webkit-text-stroke-width:0.28vw;
         -webkit-text-stroke-color: #ffffff;
         color: transparent;
@@ -115,7 +123,7 @@
     }
     #work h1{
         top: 66%;
-        -webkit-text-stroke-width: 0.47vw;
+        -webkit-text-stroke-width: 0.41vw;
         -webkit-text-stroke-color: #ff2525;
         color: transparent;
     }
@@ -241,7 +249,7 @@
     }
     #log12{
         position:absolute;
-        -webkit-text-stroke-width:0.15vw;
+        -webkit-text-stroke-width:0.28vw;
         -webkit-text-stroke-color: #ffffff;
         color: transparent;
         z-index: 5;
@@ -255,7 +263,7 @@
     #education-body{
         position: relative;
         background-color: rgb(0, 0, 0);
-        height:60vw;
+        height:70vw;
         overflow: hidden;
     }
     .img-slider{
@@ -272,7 +280,7 @@
     .img-slider .slide img{
         z-index: 1;
     width: 100vw;
-    height: 60vw;
+    height: 70.2vw;
     }
     
     .img-slider .slide .info{
@@ -293,8 +301,8 @@
         font-family: 'Nova Square', cursive;
     }
     #log23{
-        left:29.5vw;
-        top: 23.5vw;
+        left:27vw;
+        top: 27.5vw;
     }
     
     .img-slider .slide .info p{
@@ -328,6 +336,9 @@
         font-size: 3.5vw;
         cursor: pointer;
     }
+    .img-slider .navigation .btn:hover{
+        color: white;
+    }
 
 
 
@@ -352,16 +363,28 @@
         display: flex;
     }
     .skill2022 {
-        width: 22vw;
+        width: 25vw;
     background-color: rgb(107, 107, 107);
     text-align: center;
-    margin-left: 8.5vw;
+    margin-left: 6vw;
     height: 15vw;
     margin-top: 3%;
     font-size: 3.6vw;
     font-family: sans-serif;
     color: white;
     padding-top: 7.2vw;
+    }
+    .skill2022:hover {
+        background-color: rgb(53, 53, 53);
+        /* color: black; */
+        font-size: 4vw;
+        font-weight: 600;
+    }
+    #except:hover{
+        font-size: 3.8vw;
+    }
+    .skill2022 p:hover{
+        text-shadow:0 0 0 rgb(255, 200, 0);
     }
    
 
