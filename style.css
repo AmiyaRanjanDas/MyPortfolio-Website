@@ -16,13 +16,20 @@
 }
 #home-head{padding: 1.5vw;}
 
-#img1 {
+#img1,#img0 {
     width: 25%;
+    top: 11.3%;
+    left: 60.2%;
     height: fit-content;
-    padding-right: 14%;
-    position: relative;
+    position: absolute;
+    z-index: 5;
+    transition: opacity 0.5s ease-in-out;
+}
+#img0 {
     z-index: 4;
-    padding-top: 5%;
+}
+#img1:hover{
+    opacity: 0;
 }
 
 #home h2{
@@ -67,7 +74,7 @@
 }
 #op2,
 #op4 {
-    z-index: 5;
+    z-index: 6;
     -webkit-text-stroke-width:0.15vw;
     -webkit-text-stroke-color: #ffffff;
     color: transparent;
@@ -378,7 +385,7 @@
 }
 #about-body img{
     position: absolute;
-    top: -26.5%;
+    top: -26.8%;
     z-index: 2;
     animation: anime100 40s linear infinite;
 }
