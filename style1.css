@@ -67,7 +67,7 @@
 .img-slider .slide .info p{
     color: #000;
     background: rgb(255 255 255 / 40%);
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     width: 30vw;
     text-align: left;
     top: 260%;
@@ -96,7 +96,9 @@
     font-size: 1.27vw;
     cursor: pointer;
 }
-
+.img-slider .navigation .btn:hover{
+  color: #00ffa6;
+}
 .img-slider .navigation .btn.active{
   color: #00fcff;
 }
